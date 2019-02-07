@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Jhalak's Valentine Surprise</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./icon.png" />
+   
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./css/prosidebar.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Valentine Week</h3> 
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Hi Jhalak</p>
+                <li>
+                        <a href="./index.html">Rose Day</a>
+                        
+                 </li>
+                        <li class="active">
+                            <a href="#">Propose Day</a>
+                        </li>
+                    <li>
+                    <a href="./chocolate.html">Chocolate Day</a>
+                    <a href="#">Teddy Day</a>
+                    <a href="#">Promise Day</a>
+                    <a href="#">Kiss Day</a>
+                    <a href="#">Hug Day</a>
+                    <a href="#">Valentine's Day</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Memories</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="./photos.html">Photos</a>
+                        </li>
+                        <li>
+                            <a href="#">Videos</a>
+                        </li>
+                        <li>
+                            <a href="#">Chats</a>
+                        </li>
+                    </ul>
+                </li>
+                
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content" style="background-image: url(./images/pday.png); background-size:contain; background-repeat: no-repeat; background-position-x: center; background-position-y: 140%; background-attachment: fixed; ">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./photos.html">Photos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Chats</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1" style="color: white; background-color: rgb(18, 10, 126); border: 0px;">A small Proposal</button>
+
+        </div>
+
+    </div>
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Proposal???</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>I have already proposed you once which was unsuccessful. So I thought why not try differently. Maybe I get a YES this time!. Can I?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fuckin'NO</button>
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal2" style="background-color: rgb(18, 10, 126); border: 0px;">Yes baby</button>
+        </div>
+      </div>
+  
+    </div>
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><del>Proposal</del></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>I have a surprise for you. You'll need to download it! :)</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">I don't like surprises</button>
+            <form method="get" action="./PROPOSAL TO MY GIRLFRIEND.pdf">
+            <button type="submit" class="btn" style="background-color: rgb(18, 10, 126); border: 0px;">Download fast!!!</button>
+            </form>
+        </div>
+      </div>
+  
+    </div>
+</div>
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
